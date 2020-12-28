@@ -1,0 +1,35 @@
+.searchdates > button {
+  width: 100%;
+  text-transform: inherit;
+  font-size: 20px;
+  color: #df5356;
+}
+
+.searchdates__popup {
+  left: 35%;
+  position: absolute;
+  width: 100vw;
+}
+
+.guestInput > h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.guestInput {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  width: fit-content;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.guestInput > input {
+  margin-left: 218px;
+}

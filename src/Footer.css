@@ -1,0 +1,15 @@
+.footer {
+  width: 100vw;
+  height: 10vh;
+  margin-top: 80px;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__description > h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+}

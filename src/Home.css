@@ -1,0 +1,13 @@
+.home__cardSection1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 70px;
+}
+
+.home__cardSection2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 70px;
+}

@@ -1,0 +1,88 @@
+.searchresult {
+  display: flex;
+  padding-top: 50px;
+  padding-left: 70px;
+  border-bottom: 1px solid lightgray;
+  width: 90vw;
+}
+
+.searchresult:hover {
+  opacity: 0.8;
+}
+
+.searchresult__img > img {
+  max-height: 400px;
+
+  max-width: 400px;
+  object-fit: contain;
+  border-radius: 20px;
+  padding-bottom: 40px;
+}
+
+.searchresult__description {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  width: 100%;
+}
+
+.searchresult_decriptionsLocation > h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: lightgray;
+  font-weight: 100;
+}
+
+.searchresult_decriptionsTitle > h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 100;
+  padding-bottom: 20px;
+}
+
+.searchresult_descriptionBottom > h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: lightgray;
+  padding-bottom: 20px;
+}
+
+.searchresult_decriptionsLocation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.searchresult__divider {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  width: 200px;
+}
+
+.searchresult__prices {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.searchresult__pricesLeft {
+  display: flex;
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.searchresult__pricesLeft > h3 {
+  color: black;
+}
+
+.searchresult__pricesRight {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.searchresult__pricesRight > h4 {
+  font-size: 30px;
+}
+
+.searchresult__pricesRight > h3 {
+  color: lightgray;
+  font-weight: 100;
+}
